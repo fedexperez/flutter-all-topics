@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "DEV ENV",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "dev",
+            ],
+            "toolArgs": [
+                "--dart-define",
+                "app.flavor=dev"
+            ]
+        },
+        {
+            "name": "QA ENV",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "qa",
+            ],
+            "toolArgs": [
+                "--dart-define",
+                "app.flavor=qa"
+            ]
+        },
+        {
+            "name": "PROD ENV",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "prod",
+            ],
+            "toolArgs": [
+                "--dart-define",
+                "app.flavor=prod"
+            ]
+        }
+    ]
+}

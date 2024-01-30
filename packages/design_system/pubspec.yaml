@@ -1,0 +1,35 @@
+name: design_system
+description: The Design System package for the project.
+version: 0.0.2
+homepage:
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  mocktail: ^1.0.2
+  flutter_lints: ^3.0.1
+
+
+flutter:
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: lib/assets/fonts/roboto/Roboto-Black.ttf
+        - asset: lib/assets/fonts/roboto/Roboto-Bold.ttf
+        - asset: lib/assets/fonts/roboto/Roboto-Light.ttf
+        - asset: lib/assets/fonts/roboto/Roboto-Medium.ttf
+        - asset: lib/assets/fonts/roboto/Roboto-Regular.ttf
+        - asset: lib/assets/fonts/roboto/Roboto-Thin.ttf
+    - family: Overpass
+      fonts:
+        - asset: lib/assets/fonts/open_sans/OpenSans-VariableFont_wdth,wght.ttf
+        - asset: lib/assets/fonts/open_sans/OpenSans-Italic-VariableFont_wdth,wght.ttf

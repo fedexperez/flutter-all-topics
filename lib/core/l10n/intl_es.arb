@@ -1,0 +1,27 @@
+{
+  "@english": {
+    "description": "Idioma ingles"
+  },
+  "@spanish": {
+    "description": "Idioma español"
+  },
+  "apiResponseTitle": "Respuesta",
+  "close": "Cerrar",
+  "english": "Ingles",
+  "error400": "Oops, algo salió mal. Parece que la solicitud no pudo entenderse o hacen falta parámetros requeridos",
+  "error401": "Error de autenticación! Por favor, inicia sesión nuevamente o verifica tus permisos",
+  "error403": "Acceso denegado! No tienes permisos para acceder a este recurso",
+  "error404": "Recurso no encontrado! No pudimos encontrar lo que estabas buscando",
+  "error405": "El método de solicitud no es compatible con el recurso solicitado",
+  "error429": "Exceso de solicitudes. Por favor, espera un momento y vuelve a intentarlo",
+  "error500": "Oops, algo salió mal en nuestro servidor. Estamos trabajando para solucionarlo",
+  "error502": "Error en la puerta de enlace! Se recibió una respuesta no válida desde el servidor",
+  "error503": "Servicio no disponible! El no se pudo procesar la solicitud en este momento",
+  "error504": "Tiempo de espera agotado! No pudimos recibir una respuesta oportuna del servidor",
+  "errorDefault": "Lo sentimos. Algo salió mal y no pudimos procesar tu solicitud",
+  "errorSettingLanguage": "Hubo un error configurando el idioma, intentalo de nuevo",
+  "flutterAllTopics": "Flutter All Topics",
+  "language": "Idioma",
+  "restApi": "Rest API",
+  "spanish": "Español"
+}

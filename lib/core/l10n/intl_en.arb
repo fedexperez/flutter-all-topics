@@ -1,0 +1,27 @@
+{
+  "@english": {
+    "description": "The english language"
+  },
+  "@spanish": {
+    "description": "The spanish language"
+  },
+  "apiResponseTitle": "Response",
+  "close": "Close",
+  "english": "English",
+  "error400": "The request could not be understood or was missing some parameters",
+  "error401": "Authentication error! Please log in again or check your permissions",
+  "error403": "Access denied! You don''t have permissions to access this resource",
+  "error404": "Resource not found! We couldn''t find what you were looking for",
+  "error405": "The request method is not supported for the requested resource",
+  "error429": "Too many requests! Please wait a moment and try again",
+  "error500": "Oops, something went wrong on our server. We''re working to fix it",
+  "error502": "Gateway error! An invalid response was received from the server",
+  "error503": "Service unavailable! The server is currently unable to handle the request",
+  "error504": "Timeout error! We couldn''t receive a timely response from the server",
+  "errorDefault": "Oops! Something went wrong and we couldn''t process your request",
+  "errorSettingLanguage": "There was an error setting the language, try again",
+  "flutterAllTopics": "Flutter All Topics",
+  "language": "Language",
+  "restApi": "Rest API",
+  "spanish": "Spanish"
+}
